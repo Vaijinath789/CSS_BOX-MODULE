@@ -1,0 +1,36 @@
+.cssMargin.jumbotron{
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+/* common */
+.cssMargin>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: teal;
+    color: #fff;
+    border-radius: 5px;
+}
+.csMargin>h1{
+    padding: 20px;
+}
+.cssMargin>h1:nth-child(1){
+    padding: 50px solid red; 
+    /* apply for all side   */
+}
+.cssMargin>h1:nth-child(2){
+    padding:25px 74px; 
+    border-color: red blue; 
+    /* apply for vertical and horizental side  */
+}
+.cssMargin>h1:nth-child(3){
+    padding:25px 50px 75px;
+    border-color: red blue pink; 
+    /* apply for top,vertical and bottom side  */   
+}
+.cssMargin>h1:nth-child(4){
+    padding:25px 50px 75px 100px ; 
+    border-color: red blue pink orangered;  
+    /* apply for  top right bottom vertical left side  */ 
+}

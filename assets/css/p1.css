@@ -1,0 +1,31 @@
+.jumbotron{
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+/* common */
+.cssPadding>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: teal;
+    color: #fff;
+    border-radius: 5px;
+}
+/* CSS PADDING CODE */
+.cssPadding>h1:nth-child(1){
+    padding: 50px; 
+    /* apply for all side   */
+}
+.cssPadding>h1:nth-child(2){
+    padding:25px 74px;  
+    /* apply for vertical and horizental side  */
+}
+.cssPadding>h1:nth-child(3){
+    padding:25px 50px 75px;
+    /* apply for top,vertical and bottom side  */   
+}
+.cssPadding>h1:nth-child(4){
+    padding:25px 50px 75px 100px ;  
+    /* apply for  top right bottom vertical left side  */ 
+}
